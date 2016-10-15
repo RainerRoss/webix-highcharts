@@ -1,6 +1,6 @@
-//=require highcharts_standalone
+//=require highcharts_standalone - not longer needed with Highcharts 5.x
 //=require highcharts
-//=require highcharts-more
+//=require highcharts-more - not longer needed with Highcharts 5.x
 
 webix.protoUI({ name:"highcharts",
 
@@ -21,6 +21,22 @@ webix.protoUI({ name:"highcharts",
             this.chart.xAxis[0].setExtremes(params.x_axis_min, params.x_axis_max);
     },
 
+    setTitle: function(title) {
+		this.chart.setTitle({text:title});
+	},
+               
+	setCategories: function(categories) {
+		this.chart.xAxis[0].setCategories(categories);
+	},
+               
+	addPlotLine: function(plotLine) {
+        this.chart.xAxis[0].addPlotLine(plotLine, 'plotLines');
+    },
+               
+	removePlotLine: function(id) {
+        this.chart.xAxis[0].removePlotLine(id);
+    },               
+               
     getOptions: function() {
       return this.chart.options;
     },
