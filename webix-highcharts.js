@@ -22,7 +22,7 @@ webix.protoUI({ name:"highcharts",
     },
 
     setTitle: function(title) {
-	this.chart.setTitle({text:title});
+	this.chart.setTitle({text: title});
     },
                
     setCategories: function(categories) {
