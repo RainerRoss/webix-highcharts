@@ -9,8 +9,7 @@ features :
 problems:
 ---------
 
-* the highcharts library needs to be loaded beforehand. ( And needs a special piece of code ('highcharts-standalone') if used without jQuery ).
-
+* the highcharts library needs to be loaded beforehand.
 * strange (random) resizing problems ( at least under chrome 44 )
 
 
