@@ -7,8 +7,9 @@ features :
 * a hacked setParams() method which currently only allows to set X axis limits
 
 new functions added:
+--------------------
 
-setTitle, setCategories, addPlotLine, removePlotLine
+* setTitle, setCategories, addPlotLine, removePlotLine
 
 problems:
 ---------
