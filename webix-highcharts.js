@@ -22,18 +22,18 @@ webix.protoUI({ name:"highcharts",
     },
 
     setTitle: function(title) {
-		this.chart.setTitle({text:title});
-	},
+	this.chart.setTitle({text:title});
+    },
                
-	setCategories: function(categories) {
-		this.chart.xAxis[0].setCategories(categories);
-	},
+    setCategories: function(categories) {
+	this.chart.xAxis[0].setCategories(categories);
+    },
                
-	addPlotLine: function(plotLine) {
+    addPlotLine: function(plotLine) {
         this.chart.xAxis[0].addPlotLine(plotLine, 'plotLines');
     },
                
-	removePlotLine: function(id) {
+    removePlotLine: function(id) {
         this.chart.xAxis[0].removePlotLine(id);
     },               
                
