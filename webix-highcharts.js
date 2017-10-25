@@ -1,5 +1,5 @@
-//=require highcharts_standalone - not longer needed with Highcharts 5.x
-//=require highcharts-more - not longer needed with Highcharts 5.x
+//=require highcharts_standalone - no longer needed with Highcharts 5.x
+//=require highcharts-more - no longer needed with Highcharts 5.x
 
 //=require highcharts
 
