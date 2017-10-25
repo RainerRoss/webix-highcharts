@@ -1,6 +1,7 @@
 //=require highcharts_standalone - not longer needed with Highcharts 5.x
-//=require highcharts
 //=require highcharts-more - not longer needed with Highcharts 5.x
+
+//=require highcharts
 
 webix.protoUI({
 	name: "highcharts",
