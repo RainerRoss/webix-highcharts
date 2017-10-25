@@ -70,4 +70,3 @@ webix.protoUI({ name:"highcharts",
     }
 
 }, webix.DataLoader, webix.EventSystem, webix.ui.view);
-
